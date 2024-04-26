@@ -1,0 +1,56 @@
+
+
+
+
+var c="bala"
+ console.log("my name is" +c.charAt(0).toUpperCase()+c.splice(1))
+
+
+
+
+ var a = 10;
+var b = 20;
+function add(c,d){
+   console.log(c+d);
+}
+function sub(c,d){
+    console.log(c-d);
+}
+function mult(c,d){
+    console.log(c*d);
+}
+function div(c,d){
+    console.log(c/d);
+}
+add(a,b);
+sub(a,b);
+mult(a,b);
+div(a,b);
+
+var arr = [1,2,3,4];
+for(let i = 0; i<arr.length; i++){
+    if(arr[i]%2 === 0){
+        var arr1 = [arr[i]];
+        console.log(arr1);
+    }
+}
+
+
+var arr2 = [1,2,3,4];
+for(let j = 0; j<arr2.length; j++){
+    if(arr2.length >= 1){
+        var arr3 = [arr[j]*2];
+        console.log(arr3);
+    }
+    
+}
+
+var c = "bala"
+var up = c.toUpperCase();
+console.log("my name is " + up);
+
+
+
+
+
+    
